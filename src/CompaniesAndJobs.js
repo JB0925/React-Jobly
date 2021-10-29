@@ -7,6 +7,7 @@ import { useCompaniesAndJobsUpdate } from "./Hooks/hooks";
 import { Redirect } from "react-router-dom";
 import AppContext from "./AppContext";
 
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /** CompaniesAndJobs Component
  * 

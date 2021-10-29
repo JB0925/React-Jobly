@@ -3,6 +3,13 @@ import AppContext from "./AppContext";
 import Button from "./Button";
 import "./Home.css";
 
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+
+/** HomePage Component
+ * 
+ * Renders the home page, withc an optional render depending on 
+ * whether or not the user is logged in.
+ */
 const HomePage = () => {
     const { isLoggedIn } = useContext(AppContext);
     const optionalRender = () => {

@@ -1,5 +1,5 @@
 import JoblyApi from "../api";
-
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 /** An array of objects that contains the initial form states
  * for the login, signup, and search forms.
  */

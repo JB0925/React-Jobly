@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { NavLink, Link } from "react-router-dom";
 import AppContext from "./AppContext";
 
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /** Navbar Component
  * 

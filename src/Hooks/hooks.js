@@ -5,6 +5,8 @@ import { getCompanyorJobDataFromApi } from "../Helpers/helpers";
 import Form from "../Form";
 import "../Form.css";
 
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+
 /** useFormHandler hook
  * 
  * Returns the initial state, a handleChange function that is 
