@@ -127,7 +127,7 @@ const useUserDataUpdate = (path, toggleLoggedIn, toggleUsername, getUserInfo, us
         const username = user.username || userName;
         if (path === "/signup") {
             result = await JoblyApi.register(user);
-        
+            history.push("/login");
         } else if (path === "/login") {
             result = await JoblyApi.login(user);
             toggleLoggedIn();
