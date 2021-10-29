@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    border: .5px solid lightgray;
+    width: 100%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+input, label, button{
+    margin-top: 10px;
+}
+
+input {
+    width: 96%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 400;
+}

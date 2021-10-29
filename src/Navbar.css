@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgray;
+    padding: 3px;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+#homeLink {
+    font-size: 1.3rem;
+    color: dodgerblue;
+    margin-left: 1%;
+    text-decoration: none;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+.activeLink {
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li {
+        padding: 5px;
+    }
+}

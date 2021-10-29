@@ -1,0 +1,41 @@
+.CompaniesAndJobs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CompaniesAndJobs input {
+    width: 725px;
+    font-size: 1.3rem;
+}
+
+.CompaniesAndJobs button {
+    width: 125px;
+}
+
+.CompaniesAndJobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 57.14%;
+}
+
+.CompaniesAndJobs-container h1 {
+    font-size: 1.4rem;
+}
+
+.CompaniesAndJobs-container p {
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    form {
+        width: 85%;
+    }
+
+    .CompaniesAndJobs-container {
+        width: 95%;
+    }
+}

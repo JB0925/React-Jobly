@@ -1,0 +1,29 @@
+button {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formButton {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
